@@ -19,4 +19,4 @@ data/processed/*
 
 # Power BI local cache
 *.tmp
-*.lock
+*.lock.env
