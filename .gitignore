@@ -1,0 +1,22 @@
+#vitrual enviorement
+venv/
+.venv/
+env
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Data directory (track layout via .gitkeep, ignore actual datasets/credentials)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Power BI local cache
+*.tmp
+*.lock
