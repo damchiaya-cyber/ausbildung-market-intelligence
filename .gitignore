@@ -20,3 +20,4 @@ data/processed/*
 # Power BI local cache
 *.tmp
 *.lock.env
+ausbildung_db.sqlite
